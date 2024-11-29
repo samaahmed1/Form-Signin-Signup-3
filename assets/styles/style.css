@@ -48,3 +48,102 @@ header .logo{
   font-size: 20px;
   color: var(--black);
 }
+.content .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .container .form .information h1{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 22px;
+  color: var(--black);
+}
+.content .container .form .information p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+.content .container .form .information p a{
+  font-weight: 500;
+  color: var(--blue);
+}
+.content .container .form{
+  width: 50%;
+}
+.content .container .form form{
+  margin-top: 52px;
+  width: 100%;
+}
+.content .container .form form label{
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--spanish-gray);
+}
+.content .container .form form input{
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.content .container .form form .input-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid var(--cetacean-blue);
+}
+.content .container .form form input::placeholder{
+  color: var(--cetacean-blue);
+  font-size: 16px;
+  font-weight: 400;
+}
+.content .container .form form .option{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .content .container .form form .option .check input{
+  width: fit-content;
+ }
+ .content .container .form form .option .check label{
+  display: inline;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--black);
+ }
+ .content .container .form form .option a{
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--dark-liver);
+ }
+ .content .container .form form .login{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 49px;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 32px;
+}
+.content .container .form .continue{
+  display: block;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--philippine-silver);
+  text-align: center;
+}
+.content .container .form .continue-with {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ margin-top: 30px;
+}
+.content .container .form .continue-with img{
+  width: 40px;
+ }
