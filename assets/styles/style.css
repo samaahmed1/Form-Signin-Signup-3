@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #0c21c1;
+  --cetacean-blue: #000842;
+  --spanish-gray: #999999;
+  --philippine-silver: #b5b5b5;
+  --dark-liver: #4d4d4d;
+}
 body {
   font-family: "Poppins", serif;
 }
