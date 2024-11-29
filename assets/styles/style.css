@@ -20,6 +20,7 @@ a {
 }
 img{
   max-width: 100%;
+  display: block;
 }
 .container {
   padding: 0 15px;
@@ -50,8 +51,9 @@ header .logo{
 }
 .content .container{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
 .content .container .form .information h1{
   font-weight: 500;
@@ -71,7 +73,7 @@ header .logo{
   color: var(--blue);
 }
 .content .container .form{
-  width: 50%;
+  width: 45%;
 }
 .content .container .form form{
   margin-top: 52px;
@@ -147,3 +149,18 @@ header .logo{
 .content .container .form .continue-with img{
   width: 40px;
  }
+ .content .container .image {
+  width: 50%;
+ }
+ @media(max-width:992px){
+  .content .container{
+    display: block;
+  }
+  .content .container .image img{
+    display: none;
+  }
+  .content .container .form{
+    width: 100%;
+  }
+}
+
